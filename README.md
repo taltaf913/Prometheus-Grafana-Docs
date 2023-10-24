@@ -28,6 +28,10 @@ cat /etc/prometheus/prometheus.yml
 ```
 # Install Node Exporter
 - Run the script
+
+chmod u=rwx,g=r,o=r 2-node-exporter.sh
+./2-node-exporter.sh
+
 ```
 sudo apt-get install vim -y
 sudo update-alternatives --config vi
